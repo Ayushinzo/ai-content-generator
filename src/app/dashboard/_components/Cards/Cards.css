@@ -1,0 +1,38 @@
+.cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.cards-container .sub-card-container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3rem;
+}
+
+.cards-container .sub-card-container .card .card-icon{
+    font-size: 2.3rem;
+    padding: .4rem;
+    background-color: blue;
+    color: white;
+    border-radius: 6px;
+}
+
+.cards-container .sub-card-container .card h2{
+    margin-top: 1.3rem;
+    font-weight: 700;
+}
+
+.cards-container .sub-card-container .card p{
+    margin-top: .2rem;
+}
+
+.cards-container .sub-card-container .card a{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    color: blue;
+    margin-top: .4rem;
+}

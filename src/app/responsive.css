@@ -1,0 +1,96 @@
+@media (max-width: 1300px){
+    .template-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .history .history-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .cards-container .sub-card-container{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cards-container{
+        margin-bottom: 3.5rem;
+    }
+    .content-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 870px){
+    .template-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .history .history-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .side-bar{
+        left: -14rem;
+    }
+    .content{
+        margin-left: 0;
+        width: 100%;
+    }
+    .billing-plans .plans-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .gr-menu, .side-bar .image .ImCancelCircle{
+        display: block;
+    }
+    .header .search-bar{
+        margin-left: 4rem;
+    }
+    .content-container{
+        display: block;
+    }
+    .billing-plan-container .billing-plans{
+        margin-top: 17rem;
+    }
+    .cards-container .sub-card-container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 550px){
+    html{
+        font-size: 80%;
+    }
+    .history{
+        padding: 1rem;
+    }
+    .header{
+        padding: .5rem 1rem;
+        padding-top: 1rem;
+        /* padding-right: 1.1rem; */
+    }
+    .history .history-container{
+        gap: 1rem;
+    }
+    .header .search-bar input{
+        width: 12rem;
+    }
+    .header .sign p{
+        display: none;
+    }
+    .template-list{
+        padding: 1.2rem;
+        gap: .8rem;
+    }
+    .header .menu{
+        display: inline-block;
+    }
+    .cards-container .sub-card-container{
+        gap: 2rem;
+        width: 87%;
+    }
+    .LandingPageHeading .heading-container{
+        padding: 0 2rem;
+    }
+    .LandingPageHeader{
+        padding: 1.3rem 1rem;
+    }
+    .content-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width: 450px){
+  
+}

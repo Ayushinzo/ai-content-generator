@@ -1,0 +1,38 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8rem 1.5rem;
+    padding-right: 3rem;
+    /* border: 1px solid rgb(127, 126, 126); */
+}
+.header .sign{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+.cl-avatarBox{
+    width: 2.7rem;
+    height: 2.7rem;
+    object-fit: cover;
+}
+.header .search-bar{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(141, 139, 139);
+    padding: 0 .5rem;
+    border-radius: .5rem;
+}
+.header .search-bar .search-icon{
+    font-size: 2rem;
+}
+.header .search-bar input{
+    padding: .5rem;
+    width: 18rem;
+    outline: none;
+}
+.header .search-bar input::-webkit-search-cancel-button{
+    font-size: 1.6rem;
+    margin-left: .5rem;
+}

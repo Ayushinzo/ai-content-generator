@@ -1,0 +1,19 @@
+.content-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    padding: 1rem;
+}
+.btn a{
+    padding: .5rem 1rem;
+    background-color: blue;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1.3rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}

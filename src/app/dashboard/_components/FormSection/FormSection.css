@@ -1,0 +1,63 @@
+.form-section {
+    padding: 1.4rem;
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(209, 209, 209, 1);
+    -moz-box-shadow: 0px 0px 6px 3px rgba(209, 209, 209, 1);
+    box-shadow: 0px 0px 6px 3px rgba(209, 209, 209, 1);
+}
+.form-section h1{
+    margin-top: .4rem;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: blue;
+}
+.form-section p{
+    font-size: .9rem;
+    margin-top: .4rem;
+}
+.form-container p{
+    margin-top: 1.5rem;
+    font-weight: bold;
+}
+.form-container input, .form-container textarea{
+    width: 100%;
+    margin-top: .3rem;
+    border: 2px solid black;
+    padding: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: .4rem;
+    resize: none;
+}
+.form-container button{
+    width: 100%;
+    text-align: center;
+    background-color: blue;
+    padding: .6rem;
+    color: white;
+    border-radius: .4rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+@keyframes load {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.myLoad{
+    font-size: 1.4rem;
+    animation-name: load;
+    animation-duration: .6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+}
+.form-container .disabled{
+    background-color: rgb(209 209 209);
+    color: #9c9c9c;
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 100%;
+}
+/* @media (max-width: 1300px){
+  .template-list{
+    grid-template-columns: repeat(3, 1fr);
+  }
+} */

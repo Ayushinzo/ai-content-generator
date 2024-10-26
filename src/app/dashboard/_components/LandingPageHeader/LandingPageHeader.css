@@ -1,0 +1,16 @@
+.LandingPageHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.3rem 2.5rem;
+    border-bottom: 1px solid rgb(156, 156, 156);
+}
+.LandingPageHeader .getStarted{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    cursor: pointer;
+    font-weight: 400;
+    border-left: 1px solid rgb(156, 156, 156);
+    padding-left: 1.5rem;
+}

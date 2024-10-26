@@ -1,0 +1,31 @@
+.history{
+    padding: 2.5rem;
+}
+
+.history .history-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.history h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.history > p{
+    font-size: 1.2rem;
+}
+
+.noRecord{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.norecord-container{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

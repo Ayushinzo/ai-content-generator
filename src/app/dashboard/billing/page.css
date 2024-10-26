@@ -1,0 +1,77 @@
+.billing-plan-container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.billing-plans h1{
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.plans-container{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 3rem;
+}
+
+.plans-container .plan-one{
+    border: 2px solid blue;
+    padding: 2.5rem 2rem;
+    border-radius: 10px;
+}
+
+.plans-container .plan-one p{
+    text-align: center;
+}
+
+.plans-container .plan-one .heading{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.plans-container .plan-one .price{
+    margin-top: .5rem;
+}
+
+.plans-container .plan-one p span{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.plans-container .plan-one button{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: .7rem;
+    background-color: rgb(101, 101, 101);
+    margin-top: 1.5rem;
+    border-radius: 3rem;
+}
+
+.plans-container .features{
+    margin-top: .8rem;
+}
+
+.plans-container .plan-one .get-started-btn{
+    background-color: white;
+    border: 2px solid blue;
+    color: black;
+}
+
+.plans-container .plan-one .get-started:hover{
+    background-color: rgb(101, 101, 101);
+    border: none;
+    color: white;
+}
+
+.plans-container .plan-one .features p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: .5rem;
+    gap: .4rem;
+}

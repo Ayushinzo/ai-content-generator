@@ -1,0 +1,70 @@
+.history-card{
+    /* margin-top: 2rem; */
+    padding: 1.3rem;
+    -webkit-box-shadow: 0px 0px 12px 0px rgba(166, 166, 166, 0.93);
+    -moz-box-shadow: 0px 0px 12px 0px rgba(166, 166, 166, 0.93);
+    box-shadow: 0px 0px 12px 0px rgba(166, 166, 166, 0.93);
+    transition: transform .1s linear;
+}
+.delete-icon{
+    cursor: pointer;
+}
+.delete-icon .delete{
+    padding: .2rem;
+    font-size: 1.9rem;
+}
+.history-card .bot{
+    margin-top: .6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .9rem;
+}
+
+.history-card .card-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.4rem;
+}
+
+.history-card .card-title .ab{
+    display: flex;
+    align-items: center;
+}
+.history-card .card-title .ab p{
+    margin-left: 1.1rem;
+    font-weight: 500;
+    font-size: .9rem;
+}
+
+.history-card .ai-content{
+    font-size: .8rem;
+    margin-top: .8rem;
+}
+
+.hr{
+    margin-top: .8rem;
+}
+
+.history-card .abc{
+    margin-top: .5rem;
+}
+
+.link{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .4rem 1rem;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+.copy-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: .6rem;
+}
+.copy-btn .delete{
+    background-color: red;
+}
